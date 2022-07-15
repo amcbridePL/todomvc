@@ -69,7 +69,7 @@ Cypress.Commands.add('createTodo', function (todo) {
   })
 
   // create the todo
-  cy.get('.new-todo', { log: false }).type(`${todo}{enter}`, { log: false })
+  cy.get('.new-todox', { log: false }).type(`${todo}{enter}`, { log: false })
 
   // now go find the actual todo
   // in the todo list so we can
