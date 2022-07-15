@@ -13,6 +13,7 @@
 
 Cypress.Commands.add('createDefaultTodos', function () {
   // SMALL CHANGE to see how workflow works 
+  // A SECOND SMALL CHANGE to see how workflow works
 
   let TODO_ITEM_ONE = 'buy some cheese'
   let TODO_ITEM_TWO = 'feed the cat'
